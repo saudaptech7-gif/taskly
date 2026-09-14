@@ -1,0 +1,44 @@
+/* Main Page */
+.App {
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+* {
+  transition: background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+
+/* Heading */
+.App h1 {
+  font-size: 38px;
+  margin: 0 0 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .App {
+    padding: 30px 15px;
+  }
+
+  .App h1 {
+    font-size: 30px;
+  }
+}
